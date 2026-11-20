@@ -241,7 +241,7 @@ thermosensor K-couple ADS1118
 #define HAS_BAK_VIEW_IN_FLASH                1
 #define HAS_LOGO_IN_FLASH                    1
 
-#define HAS_SPI_FLASH     1
+#define SPI_FLASH     1
 #define SPI_FLASH_SIZE    0x1000000
 #define W25QXX_MISO_PIN   MISO_PIN
 #define W25QXX_MOSI_PIN   MOSI_PIN
@@ -253,3 +253,8 @@ thermosensor K-couple ADS1118
 #define SPI_FLASH_SCK_PIN   SCK_PIN
 #define SPI_FLASH_CS_PIN    PB12
 #endif
+
+//
+// Plasma Torch On/Off Relay
+//
+#define SPINDLE_LASER_ENA_PIN   FAN0_PIN
